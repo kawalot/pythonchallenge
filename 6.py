@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
-import re
+import pickle
 
-parse = b"There maybe misleading numbers in the text. One example is 82683. Look only for the next nothing and the next nothing is 63579"
-ttt = re.findall(r"(\d+$)",parse)
-print (ttt)
+with open('banner.p','rb') as f:
+	data_new = pickle.load(f)
+#print(data_new)
+for data in data_new:
+	print("".join([entry[0]*entry[1] for entry in data]))
