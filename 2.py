@@ -19,13 +19,8 @@ for i in b:
         c=c+i
 print (c)
 
-# user_input = input("Enter a string to un-ROT2.")
-
-# i = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-# e = "CDEFGHIJKLMNOPQRSTUVWXYZABcdefghijklmnopqrstuvwxyzab"
-
-# t = str.maketrans(i, e)
-
-# print (user_input.translate(t))
-
-# input("\n\nPress enter to continue.")
+# def ocr(string):
+#     i = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+#     e = "CDEFGHIJKLMNOPQRSTUVWXYZABcdefghijklmnopqrstuvwxyzab"
+#     t = str.maketrans(i, e)
+#     return string.translate(t)
